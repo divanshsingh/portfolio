@@ -1,0 +1,324 @@
+@media (min-width: 350px) and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #home {
+    height: calc(100vh - 100px);
+    > .herowithoutnav {
+      flex-direction: column;
+      gap: 0;
+
+      > .hero-left {
+        height: 50%;
+        width: 100%;
+        margin-top: 20rem;
+
+        > .herotextbottom {
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+
+          >.aboutbtndiv{
+            >.abouttext{
+
+                >p{
+                    padding-top: 0.25rem;
+                    font-size: 0.6rem;
+                }
+            }
+
+          > .aboutme-div {
+            >a{
+
+                >#aboutme-btn {
+                  padding: 0.2rem 0.5rem;
+                  font-size: 0.6rem;
+                  line-height: 0.85rem;
+                }
+            }
+          }
+        }
+    }
+
+        > .hero-heading {
+          width: 100%;
+          top: -14rem;
+          display: flex;
+          justify-content: center;
+
+          > .masker-main {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            gap: 1.3rem;
+
+            > .masker {
+              > .inside-masker {
+                font-size: 15vw;
+              }
+            }
+          }
+        }
+      }
+
+      > .hero-right {
+        height: 50%;
+        width: 100%;
+      }
+    }
+  }
+
+  #nav {
+    padding: 1.5rem 1rem;
+
+    .nav-logo {
+      font-size: 1rem;
+      >a{
+
+          >h1{
+            >span{
+                font-size: 0.7rem;
+            }
+          }
+      }
+    }
+
+    >.nav-items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        >a{
+            padding: 0.03rem 0.2rem;
+            font-size: 0.75;
+        }
+    }
+
+    > .nav-social {
+      display: none;
+    }
+  }
+
+  #marque{
+    padding: 1rem 0;
+    >div{
+        >h1{
+            letter-spacing: 5px;
+        }
+    }
+  }
+
+  #projects {
+
+    >h2{
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+    > .project_main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: 0;
+
+      > .project_left {
+        margin: 0;
+        align-items: start;
+        width: 100%;
+        margin-left: 3rem;
+        height: auto;
+
+        > p {
+          font-size: 3rem;
+          line-height: 12vw;
+        }
+
+        > .projectbtns {
+          gap: 1rem;
+          margin-top: 1rem;
+          > button {
+            > svg {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+
+      > .project_right {
+        width: 100%;
+        height: auto;
+        margin-right: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > .swiper {
+          > .swiper-slide {
+            display: flex;
+            justify-content: end;
+          }
+        }
+      }
+    }
+  }
+
+  #idv-project {
+    height: 58vh;
+    width: 80vw;
+
+    > .idv-project-data {
+      > img {
+        width: 5rem;
+        height: 5rem;
+      }
+
+      > h3 {
+        line-height: 1.9rem;
+      }
+
+      > p {
+        font-size: 0.8rem;
+      }
+
+      .idv-project-btn {
+        > a {
+          > button {
+            width: 5em;
+            height: 2rem;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  // #about{
+  //     >section{
+  //         margin: 0;
+  //         grid-template-columns: repeat(2, 1fr);
+  //         gap: 2rem;
+  //         padding: 3vmax;
+
+  //         >*{
+  //             >span{
+  //                 font-size: 0.8rem;
+  //                 letter-spacing: 1px;
+  //             }
+  //         }
+
+  //         >.serviceBox1{
+  //             grid-column: 1/3;
+  //             grid-row: unset;
+  //             border-radius: 1rem 1rem 0 0;
+  //         }
+
+  //         .serviceBox3{
+  //             border-radius: 0;
+  //            }
+
+  //         >.serviceBox4{
+  //             grid-column: 1/3;
+  //             border-radius: 0 0 1rem 1rem;
+  //         }
+  //     }
+  // }
+
+
+  #contact{
+    height: 50vh;
+    display: flex;
+    align-items: start;
+
+    >.first-contact-div{
+        height: 100%;
+        position: absolute;
+    bottom: 6vh;
+    }
+  }
+
+#socials{
+    padding-top: 2vh;
+    >p{
+
+        text-decoration: underline;
+    }
+    >.my-socials{
+      margin-bottom: 1vh;
+    }
+}
+
+#social-elem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    >.social-elem-inside{
+        flex-direction: column;
+        margin-bottom: 0%;
+        gap: 5px;
+    }
+}
+
+#skills-h2{
+    margin-left: 2rem;
+}
+
+#skills-container{
+    flex-direction: column;
+    >.skillstext{
+        width: 100%;
+        height: 60%;
+
+        >.idv-skills-div{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0 9vw;
+        }
+    }
+
+    >.skillvisual{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        >.skilldescription{
+            height: 20%;
+
+            >p{
+                font-size: 1rem;
+                padding: 0 4vw 14vh 4vw;
+                -webkit-text-stroke: 1px rgb(86, 83, 83);
+            }
+        }
+
+        >.skillsvideo{
+            height: 80%;
+            width: 100%;
+
+            >.skill-video-keeper{
+                width: 100%;
+                border-radius: 0%;
+                object-fit: contain;
+                height: 100%;
+                padding: 1rem 1.5rem;
+                
+
+                >video{
+                    border-radius: 2rem;
+                }
+            }
+
+        }
+    }
+}
+
+#idv-skill{
+    
+    >h2{
+        font-size: 2.3vw;
+    }
+
+    >svg{
+        font-size: 4vw;
+    }
+}
+}
