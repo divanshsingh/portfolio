@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { GoArrowLeft } from "react-icons/go";
 import { motion } from 'framer-motion';
 import '../styles/mediaquery.scss'
-import Frontendanimation from '../media/frontendanimation.MP4'
-import Digitalmarketing from '../media/digitalmarketing.mp4'
-import Programinglang from '../media/programinglang.mp4'
-import Github from '../media/github.MP4'
+import Frontendanimation from '/frontendanimation.mp4'
+import Digitalmarketing from '/digitalmarketing.mp4'
+import Programinglang from '/programinglang.mp4'
+import Github from '/github.mp4'
 
 function Skills() {
   const [rotateStates, setRotateStates] = useState([0, 0, 0, 0]);
@@ -22,7 +22,7 @@ function Skills() {
     Frontendanimation,
     Digitalmarketing,
     Programinglang,
-    Github,
+    Github
   ];
 
   function handleHover(index) {

@@ -54,7 +54,7 @@ function About() {
           whileInView={animations.whileInView}
           initial={animations.two}
         >
-          <img className="w-[50px] h-[50px] rounded-full" src="/src/media/aboutme.jpeg" alt="divansh" />
+          <img className="w-[50px] h-[50px] rounded-full" src="/aboutme.jpeg" alt="divansh" />
           <span>Who Am I</span>
           <span className="abouttxt">I'm Divansh a SEO/Content Writer Want To Be Full Stack, started With Frontend</span>
         </motion.div>

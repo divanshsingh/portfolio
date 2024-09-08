@@ -17,7 +17,7 @@ function Contact() {
         id: Date.now(),
         x: mouseX,
         y: mouseY,
-        imageUrl: `/src/media/contactimg${Math.floor(Math.random() * 7) + 1}.jpg`,
+        imageUrl: `/contactimg${Math.floor(Math.random() * 7) + 1}.jpg`,
       }
 
       setDivs((prevDivs) => [...prevDivs, newDiv])

@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css';
 import '../styles/mediaquery.scss'
-import CodeSmith from '../media/portfoliologo.png'
-import Crptopulse from '../media/btc.png'
-import Yourcart from '../media/yourcart.png'
-import Edustream from '../media/edustream.jpg'
+import CodeSmith from '/portfoliologo.png'
+import Crptopulse from '/btc.png'
+import Yourcart from '/yourcart.png'
+import Edustream from '/edustream.jpg'
 
 
 function Projects() {

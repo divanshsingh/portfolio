@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Navbar from './Navbar';
 import { motion, useAnimation } from 'framer-motion';
 import '../styles/mediaquery.scss'
-import HeroImg from '../media/aboutme.jpeg'
+import HeroImg from '/aboutme.jpeg'
 
 function Hero() {
   const animation = useAnimation();
@@ -28,7 +28,7 @@ function Hero() {
                     initial={{ width: 0 }} 
                     animate={{ width: "8vw" }} 
                     transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                    className='w-[8vw] h-[5.5vw] bg-[url("/src/media/contactimg6.jpg")] bg-center bg-no-repeat bg-cover rounded-md relative -bottom-[0.5vw]'
+                    className='w-[8vw] h-[5.5vw] bg-[url("/contactimg6.jpg")] bg-center bg-no-repeat bg-cover rounded-md relative -bottom-[0.5vw]'
                   ></motion.div>
                 )}
                 <h1 className={`uppercase leading-[6vw] tracking-tight font-["Founders_Grotesk_Condensed"] ${index === 1 ? "font-bold text-[#6482AD]" : ""}`}>
