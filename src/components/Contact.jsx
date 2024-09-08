@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { motion, easeInOut, easeIn, easeOut } from 'framer-motion';
+import { motion, easeInOut, easeOut } from 'framer-motion';
 import '../styles/mediaquery.scss'
 
 

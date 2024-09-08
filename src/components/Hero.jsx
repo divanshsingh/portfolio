@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Navbar from './Navbar';
 import { motion, useAnimation } from 'framer-motion';
 import '../styles/mediaquery.scss'
+import HeroImg from '../media/aboutme.jpeg'
 
 function Hero() {
   const animation = useAnimation();
@@ -61,7 +62,7 @@ function Hero() {
       <div className='hero-right w-1/2 overflow-hidden flex justify-center items-center rounded-3xl'>
         <img
           className={`rounded-3xl ${hover ? 'scale-95 ' : 'scale-90'} transition-transform duration-700`}
-          src="/src/media/aboutme.jpeg"
+          src={HeroImg}
           alt="About me"
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}

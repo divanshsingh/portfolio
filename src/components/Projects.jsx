@@ -5,6 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css';
 import '../styles/mediaquery.scss'
+import CodeSmith from '../media/portfoliologo.png'
+import Crptopulse from '../media/btc.png'
+import Yourcart from '../media/yourcart.png'
+import Edustream from '../media/edustream.jpg'
 
 
 function Projects() {
@@ -40,12 +44,12 @@ function Projects() {
 
     >
           <SwiperSlide>
-          <Projectcarousel title={"Code Smith"} description={"CodeSmith is a fully responsive practice portfolio web application built with React, featuring dynamic routing and a smooth carousel component. Styled with Sass, the project highlights modern design and efficient code structure, ensuring a seamless user experience across all devices."} githubUrl={"https://github.com/divanshsingh/first-responsive-web"} liveProjectUrl={"https://first-responsive-web.vercel.app/"} imgUrl={"/src/media/portfoliologo.png"} color={"#28736e"} btnColor={"#6482AD"} />
+          <Projectcarousel title={"Code Smith"} description={"CodeSmith is a fully responsive practice portfolio web application built with React, featuring dynamic routing and a smooth carousel component. Styled with Sass, the project highlights modern design and efficient code structure, ensuring a seamless user experience across all devices."} githubUrl={"https://github.com/divanshsingh/first-responsive-web"} liveProjectUrl={"https://first-responsive-web.vercel.app/"} imgUrl={CodeSmith} color={"#28736e"} btnColor={"#6482AD"} />
           </SwiperSlide>
-      <SwiperSlide><Projectcarousel title={"Crypto Pulse"} description={"CrptoPulse showcase my ability to interact with APIs, handle and present data effectively, and ensure that data updates seamlessly through the user interface. CryptoPulse provides real-time data on various cryptocurrencies, including their current prices, market trends, and exchange information."} githubUrl={"https://github.com/divanshsingh/cryptopulse"} liveProjectUrl={"https://cryptopulse-alpha.vercel.app/"} imgUrl={"/src/media/btc.png"} color={"#6482AD"} btnColor={"#28736e"} /></SwiperSlide>
-      <SwiperSlide><Projectcarousel title={"Your Cart"} description={"YourCart is a responsive web app that displays a list of products with the ability to add items to a cart. It features a comprehensive cart system that updates quantities, performs price calculations, and demonstrates efficient state management using Redux and Redux Toolkit."} githubUrl={"https://github.com/divanshsingh/yourcart"} liveProjectUrl={"https://yourcart-three.vercel.app/"} imgUrl={"/src/media/yourcart.png"} color={"#28736e"} btnColor={"#6482AD"} /></SwiperSlide>
+      <SwiperSlide><Projectcarousel title={"Crypto Pulse"} description={"CrptoPulse showcase my ability to interact with APIs, handle and present data effectively, and ensure that data updates seamlessly through the user interface. CryptoPulse provides real-time data on various cryptocurrencies, including their current prices, market trends, and exchange information."} githubUrl={"https://github.com/divanshsingh/cryptopulse"} liveProjectUrl={"https://cryptopulse-alpha.vercel.app/"} imgUrl={Crptopulse} color={"#6482AD"} btnColor={"#28736e"} /></SwiperSlide>
+      <SwiperSlide><Projectcarousel title={"Your Cart"} description={"YourCart is a responsive web app that displays a list of products with the ability to add items to a cart. It features a comprehensive cart system that updates quantities, performs price calculations, and demonstrates efficient state management using Redux and Redux Toolkit."} githubUrl={"https://github.com/divanshsingh/yourcart"} liveProjectUrl={"https://yourcart-three.vercel.app/"} imgUrl={Yourcart} color={"#28736e"} btnColor={"#6482AD"} /></SwiperSlide>
       <SwiperSlide>
-      <Projectcarousel title={"Edu Stream"} description={"EduStream is an innovative educational platform designed to provide seamless access to high-quality video lectures and interactive learning experiences. Whether you're a student or a professional, EduStream offers a flexible and personalized approach to education."} githubUrl={"https://github.com/divanshsingh"} liveProjectUrl={"https://edustream-bice.vercel.app/  "} imgUrl={"/src/media/edustream.jpg"} color={"#6482AD"} btnColor={"#28736e"} />
+      <Projectcarousel title={"Edu Stream"} description={"EduStream is an innovative educational platform designed to provide seamless access to high-quality video lectures and interactive learning experiences. Whether you're a student or a professional, EduStream offers a flexible and personalized approach to education."} githubUrl={"https://github.com/divanshsingh"} liveProjectUrl={Edustream} imgUrl={"../media/edustream.jpg"} color={"#6482AD"} btnColor={"#28736e"} />
       </SwiperSlide>
           </Swiper>
         </section>
